@@ -55,14 +55,16 @@ $headingTextTransform: none;
 	padding: 0.5em 1em;
 	margin: 1em;
 	background: rgba(255,255,255,0.3);
-
-	color: #243277;
+	color: rgba(36,50,119,0.7);
 	font-weight: lighter;
 	font-family: 'cinzelregular', serif;
 	text-transform: uppercase;
 	letter-spacing: 0.23em;
 }
 
+#breddi h2 {
+	font-size: 2em;
+}
 
 #breddi img {
 	position: absolute;
