@@ -52,6 +52,8 @@ $headingTextTransform: none;
 
 
 #breddi {
+	position: absolute;
+	width: 96%;
 	padding: 0.5em 1em;
 	margin: 1em;
 	background: rgba(255,255,255,0.3);
@@ -63,15 +65,19 @@ $headingTextTransform: none;
 }
 
 #breddi h2 {
-	font-size: 2em;
+	font-size: 1.2em;
+}
+
+#breddi h4 {
+	font-size: 0.8em;
 }
 
 #breddi img {
 	position: absolute;
-	top: 0.5em;
+	top: 1em;
 	right: 1em;
-	width: 135px;
-	height: 135px;
+	width: 90px;
+	height: 90px;
 }
 
 .slide-number::before {
@@ -82,6 +88,21 @@ section {
 	background: rgba(255,255,255,0.3);
 }
 
-.img50pct {
-	width: 60%;
+.smallertext {
+	font-size: 0.9em !important;
 }
+
+.img50pct {
+	width: 70%;
+}
+
+.red-clock,
+.green-check {
+	display: inline;
+	border: 0 !important;
+	margin: 0 !important;
+	box-shadow: none !important;
+    width: 1em;
+    height: 1em;
+    valign: bottom;
+ }

@@ -298,6 +298,8 @@ body {
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
 #breddi {
+  position: absolute;
+  width: 96%;
   padding: 0.5em 1em;
   margin: 1em;
   background: rgba(255, 255, 255, 0.3);
@@ -308,14 +310,17 @@ body {
   letter-spacing: 0.23em; }
 
 #breddi h2 {
-  font-size: 2em; }
+  font-size: 1.2em; }
+
+#breddi h4 {
+  font-size: 0.8em; }
 
 #breddi img {
   position: absolute;
-  top: 0.5em;
+  top: 1em;
   right: 1em;
-  width: 135px;
-  height: 135px; }
+  width: 90px;
+  height: 90px; }
 
 .slide-number::before {
   content: 'Nordisk Statistikermøte, Stockholm 2016 - '; }
@@ -323,5 +328,18 @@ body {
 section {
   background: rgba(255, 255, 255, 0.3); }
 
+.smallertext {
+  font-size: 0.9em !important; }
+
 .img50pct {
-  width: 60%; }
+  width: 70%; }
+
+.red-clock,
+.green-check {
+  display: inline;
+  border: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  width: 1em;
+  height: 1em;
+  valign: bottom; }
